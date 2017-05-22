@@ -1,0 +1,9 @@
+{
+  "name": "sams-dashboard",
+  "version": "1.0.0",
+  "description": "Building an app for sam's business",
+  "main": "index.js",
+  "repository": "https://github.com/azncreed/CFA-dash-hack.git",
+  "author": "Sylvia Shen <azncreedii@gmail.com>",
+  "license": "MIT"
+}
