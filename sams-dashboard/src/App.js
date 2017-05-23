@@ -3,7 +3,9 @@ import logo from './logo.svg';
 import './App.css';
 import ClientCount from './ClientCount';
 import BookingsIndexComp from './BookingsIndexComp';
-import { Card, Button, CardTitle, CardText, Row, Col } from 'reactstrap';
+import { Card, Button, CardTitle, CardText, Row, Col, ModalHeader } from 'reactstrap';
+import NavBarComponent from './NavBarComponent';
+import HeaderComponent from './HeaderComponent.js';
 
 class App extends Component {
   constructor(props) {
@@ -18,7 +20,10 @@ class App extends Component {
   render() {
     return (
       <div>
-        <h1 className="title">Personal Dashboard</h1>
+        <NavBarComponent />
+        <HeaderComponent />
+         
+
 
         <Row>
         <Col sm="6">
@@ -42,8 +47,8 @@ class App extends Component {
 
         <Row>
         </Row>
-       
       </div>
+       
     );
   }
 }
