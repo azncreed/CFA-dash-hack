@@ -22,3 +22,19 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.clients {
+  text-align: center;
+  margin: 40px;
+  border: solid;
+  background-color: green;
+}
+
+.title {
+  text-align: center;
+}
+
+.booking-history {
+  text-align: center;
+  margin: 40px;
+}
